@@ -4,8 +4,8 @@ import praw
 from prawcore.exceptions import RequestException
 from psaw import PushshiftAPI
 
-reddit = praw.Reddit(client_id='ZKM8R8JsjFf7SA',
-                     client_secret='C4XB8mrTAAFg0LvzJXsZaUDYz2M',
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
                      user_agent='my user agent')
 
 api = PushshiftAPI(reddit)
